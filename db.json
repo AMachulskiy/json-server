@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Телевизор",
+      "category": "electronics",
+      "price": 35000
+    },
+    {
+      "id": 2,
+      "title": "Книга",
+      "category": "books",
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "title": "Мяч",
+      "category": "sport",
+      "price": 1000
+    },
+    {
+      "id": 4,
+      "title": "Ноутбук",
+      "category": "electronics",
+      "price": 70000
+    },
+    {
+      "id": 5,
+      "title": "Коньки",
+      "category": "sport",
+      "price": 6000,
+      "discount": {
+        "type": "shipping"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Алексей",
+      "rating": 5,
+      "comment": "Супер ноутбук",
+      "productId": 4
+    },
+    {
+      "id": 2,
+      "name": "Роман",
+      "rating": 3,
+      "comment": "Книга на любителя",
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "name": "Егор",
+      "rating": 4,
+      "comment": "Мне понравилась",
+      "productId": 2
+    }
+  ]
+}
